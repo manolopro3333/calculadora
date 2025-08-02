@@ -201,15 +201,16 @@ input[value="Calcular"]:hover {
 
 .firma {
     position: fixed;
-    bottom: 4px;
-    right: 8px;
-    font-size: 9px;
-    opacity: 0.2;
+    bottom: 6px;
+    right: 10px;
+    font-size: 20px;
+    opacity: 0.25;
     color: #e8e8e8;
     pointer-events: none;
     user-select: none;
     z-index: 1;
     font-style: italic;
+    letter-spacing: 0.3px;
 }
 
 
