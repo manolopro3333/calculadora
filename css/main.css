@@ -203,7 +203,7 @@ input[value="Calcular"]:hover {
     position: fixed;
     bottom: 6px;
     right: 10px;
-    font-size: 50px;
+    font-size: 30px;
     opacity: 0.25;
     color: #e8e8e8;
     pointer-events: none;
