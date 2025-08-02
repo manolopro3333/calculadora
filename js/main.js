@@ -115,7 +115,7 @@ function calcular() {
         necesario = 3 - defsin
 
         if (necesario > 1) {
-            document.getElementById('mostrar20').innerText = "\nSi sacas 5 en la trimestral aun asi pierdes con: " + (defsin + 1);
+            document.getElementById('mostrar20').innerText = "\n*PIERDES* LA MATERIA CON UN: " + (defsin + 1.2).toFixed(2) + " (eso si SACAS un 5.0 en tu SEMESTRAL)";
         } else if (necesario < 0.3) {
             document.getElementById('mostrar20').innerText = "\nAunque usted saque 1.0 igual pasa.";
         }else {

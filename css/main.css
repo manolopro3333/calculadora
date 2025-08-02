@@ -199,6 +199,20 @@ input[value="Calcular"]:hover {
     box-shadow: 0 8px 25px rgba(74, 138, 74, 0.3);
 }
 
+.firma {
+    position: fixed;
+    bottom: 4px;
+    right: 8px;
+    font-size: 9px;
+    opacity: 0.2;
+    color: #e8e8e8;
+    pointer-events: none;
+    user-select: none;
+    z-index: 1;
+    font-style: italic;
+}
+
+
 .results-container {
     position: sticky;
     top: 20px;
