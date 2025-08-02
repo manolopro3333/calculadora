@@ -7,7 +7,6 @@ semestral = 0.0
 
 aux2 = 0
 
-
 function organizar(lista) {
 
     devuelta = []
