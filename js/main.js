@@ -48,11 +48,11 @@ function enviar(nota,id) {
             autoevaluacion = nota
         document.getElementById('mostrarauto').innerText = "\nTu AutoEvaluacion: " + autoevaluacion;
             break;
-        case 3:
+        case 4:
             coevaluacion = nota
             document.getElementById('mostrarco').innerText = "\nTu CoEvaluacion: " + coevaluacion;
             break;
-        case 4:
+        case 3:
             heteroevaluacion = nota
             document.getElementById('mostrarhetero').innerText = "\nTu HeteroEvaluacion: " + heteroevaluacion ;
             break;
